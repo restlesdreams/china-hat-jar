@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "china_hat",
+  "version": "${version}",
+  "name": "China Hat",
+  "description": "A lightweight visual client-style HUD and ClickGUI for Fabric 1.20.1.",
+  "authors": ["China Hat"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.chinahat.client.ChinaHatClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
