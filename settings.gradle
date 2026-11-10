@@ -5,11 +5,13 @@ pluginManagement {
         mavenCentral()
     }
 }
+
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         maven { url = 'https://maven.fabricmc.net/' }
         mavenCentral()
     }
 }
+
 rootProject.name = 'china-hat'
